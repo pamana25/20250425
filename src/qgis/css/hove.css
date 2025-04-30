@@ -1,0 +1,48 @@
+.tile-wrapper {
+margin:0;
+padding:0;
+overflow: hidden;
+position: relative;
+}
+.new-arrivals-link {
+line-height: 0;
+}
+.new-arrivals-link img {
+-webkit-transition: all 1s ease; /* Safari and Chrome */
+-moz-transition: all 1s ease; /* Firefox */
+-ms-transition: all 1s ease; /* IE 9 */
+-o-transition: all 1s ease; /* Opera */
+transition: all 1s ease;
+}
+.new-arrivals-link img:hover {
+-webkit-transform:scale(1.25); /* Safari and Chrome */
+-moz-transform:scale(1.25); /* Firefox */
+-ms-transform:scale(1.25); /* IE 9 */
+-o-transform:scale(1.25); /* Opera */
+transform:scale(1.25);
+}
+.new-arrivals-link img:hover {
+opacity: 0.8;
+}
+.tile-wrapper .text-overlay {
+position: absolute;
+width: 50%;
+height: 50%;
+overflow: auto;
+margin: auto;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+text-align: center;
+}
+.tile-wrapper .text-overlay h2 {
+color: white;
+font-size: 60px;
+line-height: 74px;
+margin: 0 0 10px;
+}
+.tile-wrapper .text-overlay p {
+color: white;
+font-size: 28px;
+}

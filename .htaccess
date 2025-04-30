@@ -1,0 +1,108 @@
+RewriteEngine On
+
+#home
+RewriteRule ^/?$ src/pages/index.php
+#resetpassword
+RewriteRule ^resetpassword/?$ src/pages/resetpassword.php
+#Settings
+RewriteRule ^settings/?$ src/pages/settings.php
+#Expired Reset Password 
+RewriteRule ^expiredlink/?$ src/pages/expiredlink.php
+
+RewriteRule ^dummymap/?$ src/pages/dummymap.php
+
+#login
+RewriteRule ^login?$ src/pages/login.php
+#logout
+RewriteRule ^logout?$ pages/logout.php
+#log-out
+RewriteRule ^logout?$ pages/user/logout.php
+#sign-up
+RewriteRule ^signup?$ src/pages/signup.php
+#forgot-password
+RewriteRule ^forgotpassword?$ src/pages/forgotpassword.php  
+#about-us
+RewriteRule ^aboutus?$ pages/aboutus.php
+#uploaded
+RewriteRule ^view-uploaded?$ src/pages/view_uploaded.php
+RewriteRule ^upload-photos?$ src/pages/upload_photos.php
+RewriteRule ^upload-photos2?$ src/pages/upload_photos2.php
+
+RewriteRule ^upload-properties?$ src/pages/upload_properties.php
+
+#Galleries
+RewriteRule ^galleries?$ src/pages/galleries.php
+
+#community
+RewriteRule ^community?$ src/pages/community.php
+RewriteRule ^community2?$ src/pages/community-1.php
+
+#map lss and ncp
+RewriteRule ^map?$ src/pages/map.php
+
+#ncp-map
+RewriteRule ^ncpmap?$ src/pages/ncpmap.php
+RewriteRule ^lcpmap?$ src/pages/lcpmap.php
+
+#model pages
+#Basilica Menor del Sto Niño de Cebu (Minor Basilica of the Holy Child of Cebu) || cebu
+RewriteRule ^model/1008?$ src/pages/model/1008.php 
+#Parish Church of Nuestra Señora del Patrocinio de Maria of Boljoon || boljoon
+RewriteRule ^model/1014?$ src/pages/model/1014.php 
+#Metropolitan Cathedral and Parish Church of Saint Vitalis and of the Guardian Angels of Cebu || cebu
+RewriteRule ^model/1139?$ src/pages/model/1139.php 
+#Parish Church of the Nuestra Senora de la Inmaculada Concepcion of Oslob || oslob
+RewriteRule ^model/1085?$ src/pages/model/1085.php 
+#Parish Church of Saint Joseph the Carpenter of Nueva Caceres || oslob
+RewriteRule ^model/2294?$ src/pages/model/2294.php
+
+
+
+RewriteRule ^ncpmaps?$ pages/ncpmap.php
+# RewriteRule ^ncpmap?$ pages/user/ncpmap.php
+#lss-map
+RewriteRule ^lssmap?$ pages/lssmap.php
+RewriteRule ^lssmap?$ pages/user/lssmap.php
+#ncp-gallery
+RewriteRule ^ncpgallery?$ pages/ncpgallery.php
+#lss-gallery
+RewriteRule ^lssgallery?$ pages/lssgallery.php
+
+RewriteRule ^sample?$ pages/user/sample.php
+RewriteRule ^accountverificationemail?$ pages/accountverificationemail.php
+RewriteRule ^resetpasswordemail?$ pages/resetpasswordemail.php
+# RewriteRule ^resetpassword?$ pages/resetpassword.php
+RewriteRule ^resetpasswordsuccess?$ pages/resetpasswordsuccess.php
+RewriteRule ^admin/areas?$ pages/admin/areas.php
+
+RewriteRule ^qgis?$ pages/qgiswebmap.php
+
+RewriteRule ^uploadfromgallerylink?$ pages/uploadfromgallerylink.php
+RewriteRule ^404Page?$ pages/404Page.php
+RewriteRule ^accountverified?$ src/pages/accountverified.php
+RewriteRule ^resendconfirmationemail?$ pages/resendconfirmationemail.php
+RewriteRule ^accountverificationemailresend?$ pages/accountverificationemailresend.php
+
+RewriteRule ^success?$ pages/success.php
+RewriteRule ^error?$ pages/error.php
+
+#web 3d model
+RewriteRule ^model?$ pages/model.php
+RewriteRule ^model2?$ pages/model2.php
+RewriteRule ^sto_nino_3d?$ pages/_sto_nino_3d.php
+RewriteRule ^cathedral_3d?$ pages/_cathedral_3d.php
+RewriteRule ^st_joseph_3d?$ pages/_st_joseph.php
+RewriteRule ^nuestra_church_boljoon_3d pages/_parish_church_of_Nuestra_boljoon_3d.php
+RewriteRule ^immaculate_conception_3d pages/_immaculate_conception_3d.php
+
+#web panorama
+RewriteRule ^panorama_cebu_cathedral?$ pages/_panorama_cebu_cathedral.php
+
+# RewriteRule ^settings?$ pages/settings.php
+RewriteRule ^settings_code?$ pages/settings_code.php
+RewriteRule ^update-password?$ pages/settings_updatepassword.php
+
+
+RewriteRule ^a?$ pages/new_index.php
+
+

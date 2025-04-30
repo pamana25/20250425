@@ -1,0 +1,1 @@
+<?php  function confi(){ return "sH@97zmV7GkW"; } ?>

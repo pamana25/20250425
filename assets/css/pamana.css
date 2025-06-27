@@ -1,0 +1,102 @@
+.pamana-main-btn {
+  border: 1px solid #164c70 !important;
+  background: #164c70 !important;
+  color: #fff !important;
+  font-size: 13px !important;
+}
+
+.pamana-main-btn:hover {
+  background: #fff !important;
+  color: #164c70 !important;
+  border: 1px solid #164c70 !important;
+
+  -webkit-transition: background 0.3s ease-in-out !important;
+  -moz-transition: background 0.3s ease-in-out !important;
+  transition: background-color 0.3s ease-in-out !important;
+}
+
+.pamana-main-reverse-btn {
+  border: 1px solid #164c70 !important;
+  background: #fff !important;
+  color: #164c70 !important;
+  font-size: 13px !important;
+}
+
+.pamana-main-reverse-btn:hover {
+  background: #f1f1f1 !important;
+  color: #164c70 !important;
+  border: 1px solid #164c70 !important;
+
+  -webkit-transition: background 0.3s ease-in-out !important;
+  -moz-transition: background 0.3s ease-in-out !important;
+  transition: background-color 0.3s ease-in-out !important;
+}
+
+.pamana-main-reverse2-btn {
+  border: 1px solid #fff !important;
+  background: #fff !important;
+  color: #164c70 !important;
+}
+
+.pamana-main-reverse2-btn:hover {
+  background: #164c70 !important;
+  color: #fff !important;
+  border: 1px solid #164c70 !important;
+
+  -webkit-transition: background 0.3s ease-in-out !important;
+  -moz-transition: background 0.3s ease-in-out !important;
+  transition: background-color 0.3s ease-in-out !important;
+}
+
+.pamana-main-input {
+  font-size: 10px !important;
+}
+
+.pamana-link {
+  color: #164c70 !important;
+}
+
+.nav-link {
+  color: #164c70 !important;
+}
+
+.nav-link.active {
+  color: #495057 !important;
+}
+
+.page-item.active .page-link {
+  background-color: #164c70 !important;
+  border-color: #164c70 !important;
+}
+
+#show_ncp,
+#show_lss {
+  display: none;
+}
+
+/* scrollbar design  */
+
+/* firefox */
+.scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #164c70 #f0f0f0;
+}
+/* other browsers */
+.scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scrollbar-track::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  border-radius: 5px;
+}
+
+.scrollbar-thumb::-webkit-scrollbar-thumb {
+  background-color: #164c70;
+  border-radius: 14px;
+  border: 3px solid var(--primary);
+}
+
+.pamana-btn-link { color: #164c70 !important; border: none; background: none; text-decoration: underline; }
+
+.pmn-footer { border: 1px solid black; }

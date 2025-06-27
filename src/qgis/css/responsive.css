@@ -1,0 +1,292 @@
+@media only screen and (max-width: 1000px) {
+ body {
+    background-image:url('image/Banner_new.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color:#243746;
+    font-family: Century Gothic;
+  }
+  
+  .belowbanner {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 60%;
+    background-color:#243746;
+  }
+
+  .belowcontainer {
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 90%;
+  }
+
+  .belowcultural {
+    width: 150px;
+    height: 100px;
+    background-image:url('image/Capitol_Active.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .belowother {
+    width: 300px;
+    height: 300px;
+    background-image:url('image/MagellansCross_Active.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .belowcommunity {
+    width: 300px;
+    height: 300px;
+    background-image:url('image/StoNino_Active.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .belowculturallabel {
+   font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+    color: #FFF;
+    text-align:center;
+	margin-top:80%;
+	padding-top:10px;
+	font-size:20px;
+	letter-spacing:1.5px;
+	
+
+  }
+
+  .belowotherlabel {
+  font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+    color: #FFF;
+    text-align:center;
+	margin-top:80%;
+	padding-top:12px;
+	font-size:20px;
+	letter-spacing:1.5px;
+	
+  }
+
+  .belowcommunitylabel {
+    font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+    color: #FFF;
+    text-align:center;
+	margin-top:80%;
+	padding-top:12px;
+	font-size:20px;
+	letter-spacing:2px;
+  }
+
+  .belowdivider {
+    width: 33%;
+    float: left;
+  }
+
+  .divbgcultural {    
+    background-color: rgba(36, 55, 70, 0.65);
+    width: 100%;
+    height: 15%;
+  }
+
+  .divbgother {    
+    background-color: rgba(36, 55, 70, 0.65);
+    width: 100%;
+    height: 15%;
+  }
+
+  .divbgcommunity {    
+    background-color: rgba(36, 55, 70, 0.65);
+    width: 100%;
+    height: 15%;
+  }
+
+  .culturaloverlay {
+    background-color:transparent;
+    width: 340px;
+    height: 380px;
+    font-size: 13px;
+    color: #FFF;
+    text-align: justify;
+    padding: 5px;
+    display: none;
+    margin-top: -10px;  
+    transition: .5s ease;
+  }
+
+  .belowcultural:hover .culturaloverlay {
+    display: block;
+  }
+
+  .belowcultural:hover .belowculturallabel {
+    display: none;
+  }
+
+  .belowcultural:hover .divbgcultural {
+    background-color: transparent;
+  }
+
+  .belowcultural:hover {
+    width: 350px;
+    height: 350px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: -30px auto;
+    transition: all 0.5s;
+    /*transform: scale(1.3);*/
+  }
+
+  .culturalmapbtn {
+  border-radius: 4px;
+  background-color: rgba(36, 55, 70, 0.65);
+  border: none;
+  color: #FFF;
+  text-align: center;
+  font-size: 35px;
+  padding: 10px;
+  width: 350px;
+  height:340px;
+  transition: all 0.5s;
+  cursor: pointer;
+  left: 0;
+  margin-top: 10px;
+  margin-left:-5px;
+ font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+ letter-spacing:2px;
+ font-weight:bold;
+  }
+
+  .otheroverlay {
+    background-color:transparent;
+    width: 340px;
+    height: 380px;
+    font-size: 13px;
+    color: #FFF;
+    text-align: justify;
+    padding: 5px;
+    display: none;
+    margin-top: -10px;  
+    transition: .5s ease;
+  }
+
+  .belowother:hover .otheroverlay {
+    display: block;
+  }
+
+  .belowother:hover .belowotherlabel {
+    display: none;
+  }
+
+  .belowother:hover .divbgother {
+    background-color: transparent;
+  }
+
+  .belowother:hover {
+    width: 350px;
+    height: 350px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: -30px auto;
+    transition: all 0.5s;
+    /*transform: scale(1.3);*/
+  }
+
+  .historicalmapbtn {
+   border-radius: 4px;
+  background-color: rgba(36, 55, 70, 0.65);
+  border: none;
+  color: #FFF;
+  text-align: center;
+  font-size: 35px;
+  padding: 10px;
+  width: 350px;
+  height:340px;
+  transition: all 0.5s;
+  cursor: pointer;
+  left: 0;
+  margin-top: 10px;
+  margin-left:-5px;
+ font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+ letter-spacing:2px;
+ font-weight:bold;
+  }
+
+  .communityoverlay {
+    background-color:transparent;
+    width: 340px;
+    height: 380px;
+    font-size: 13px;
+    color: #FFF;
+    text-align: justify;
+    padding: 5px;
+    display: none;
+    margin-top: -10px;  
+    transition: .5s ease;
+  }
+
+  .belowcommunity:hover .communityoverlay {
+    display: block;
+  }
+
+  .belowcommunity:hover .belowcommunitylabel {
+    display: none;
+  }
+
+  .belowcommunity:hover .divbgcommunity {
+    background-color: transparent;
+  }
+
+  .belowcommunity:hover {
+    width: 350px;
+    height: 350px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: -30px auto;
+    transition: all 0.5s;
+    /*transform: scale(1.3);*/
+  }
+
+  .uploadpagebtn {
+  border-radius: 4px;
+  background-color: rgba(36, 55, 70, 0.65);
+  border: none;
+  color: #FFF;
+  text-align: center;
+  font-size: 35px;
+  padding: 10px;
+  width: 350px;
+  height:340px;
+  transition: all 0.5s;
+  cursor: pointer;
+  left: 0;
+  margin-top: 10px;
+  margin-left:-5px;
+ font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+ letter-spacing:2px;
+ font-weight:bold;
+  }
+
+  .mapdiv {
+    float: right;
+    margin-right: 15px;
+    margin-top: 5px;
+  }
+
+  .mapicon {
+    height:40px;
+    weight:40px;
+  }
+
+}

@@ -1,0 +1,32 @@
+var json_CebuProvinceHistoricalMarkers_1 = {
+"type": "FeatureCollection",
+"name": "CebuProvinceHistoricalMarkers_1",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "List of Historical Markers": "Andres Bonifacio", "Lon": "123.9049429", "Lat": "10.29235" }, "geometry": { "type": "Point", "coordinates": [ 123.9049429, 10.29235 ] } },
+{ "type": "Feature", "properties": { "List of Historical Markers": "Antonio Pigafetta", "Lon": "123.905571", "Lat": "10.292259" }, "geometry": { "type": "Point", "coordinates": [ 123.905571, 10.292259 ] } },
+{ "type": "Feature", "properties": { "List of Historical Markers": "Balay na Tisa (Sarmiento-Osme�a House)", "Lon": "123.642568", "Lat": "10.102114" }, "geometry": { "type": "Point", "coordinates": [ 123.642568, 10.102114 ] } },
+{ "type": "Feature", "properties": { "List of Historical Markers": "Bradford Memorial Church", "Lon": "123.8948185", "Lat": "10.3058124" }, "geometry": { "type": "Point", "coordinates": [ 123.894818500000014, 10.3058124 ] } },
+{ "type": "Feature", "properties": { "List of Historical Markers": "Birthplace of Sergio Osme�a, Sr.", "Lon": "123.903661", "Lat": "10.29395" }, "geometry": { "type": "Point", "coordinates": [ 123.903661, 10.29395 ] } },
+{ "type": "Feature", "properties": { "List of Historical Markers": "Casa Gorordo House", "Lon": "123.904964", "Lat": "10.299839" }, "geometry": { "type": "Point", "coordinates": [ 123.904964, 10.299839 ] } },
+{ "type": "Feature", "properties": { "List of Historical Markers": "Church and Convent of Santo Ni�o", "Lon": "123.9021033", "Lat": "10.2943088" }, "geometry": { "type": "Point", "coordinates": [ 123.9021033, 10.2943088 ] } },
+{ "type": "Feature", "properties": { "List of Historical Markers": "The Cross of Magellan", "Lon": "123.9019485", "Lat": "10.2935675" }, "geometry": { "type": "Point", "coordinates": [ 123.901948500000017, 10.2935675 ] } },
+{ "type": "Feature", "properties": { "List of Historical Markers": "Daang Colon\/Colon Street", "Lon": "123.903642", "Lat": "10.297962" }, "geometry": { "type": "Point", "coordinates": [ 123.903642, 10.297962 ] } },
+{ "type": "Feature", "properties": { "List of Historical Markers": "Ang Dakong Balay (Don Florencio Noel House) ", "Lon": "123.6417242", "Lat": "10.103905" }, "geometry": { "type": "Point", "coordinates": [ 123.641724200000013, 10.103905 ] } },
+{ "type": "Feature", "properties": { "List of Historical Markers": "Ferdinand Magellan's Death", "Lon": "124.0152301", "Lat": "10.310869" }, "geometry": { "type": "Point", "coordinates": [ 124.015230099999982, 10.310869 ] } },
+{ "type": "Feature", "properties": { "List of Historical Markers": "Fort of San Pedro", "Lon": "123.9056398", "Lat": "10.2924695" }, "geometry": { "type": "Point", "coordinates": [ 123.905639799999989, 10.2924695 ] } },
+{ "type": "Feature", "properties": { "List of Historical Markers": "Karsel sa Sugbo (Carcel de Cebu)", "Lon": "123.9067325", "Lat": "10.3038378" }, "geometry": { "type": "Point", "coordinates": [ 123.9067325, 10.3038378 ] } },
+{ "type": "Feature", "properties": { "List of Historical Markers": "Katedral ng Cebu (Cathedral of Cebu)", "Lon": "123.9029952", "Lat": "10.2955765" }, "geometry": { "type": "Point", "coordinates": [ 123.9029952, 10.2955765 ] } },
+{ "type": "Feature", "properties": { "List of Historical Markers": "Kapitolyo sa Sugbo (Cebu Capitol)", "Lon": "123.890716", "Lat": "10.31699" }, "geometry": { "type": "Point", "coordinates": [ 123.890716, 10.31699 ] } },
+{ "type": "Feature", "properties": { "List of Historical Markers": "Lapu-Lapu", "Lon": "124.0152301", "Lat": "10.310869" }, "geometry": { "type": "Point", "coordinates": [ 124.015230099999982, 10.310869 ] } },
+{ "type": "Feature", "properties": { "List of Historical Markers": "Lapu-lapu", "Lon": "124.0152301", "Lat": "10.310869" }, "geometry": { "type": "Point", "coordinates": [ 124.015230099999982, 10.310869 ] } },
+{ "type": "Feature", "properties": { "List of Historical Markers": "Pantaleon Villegas \"Leon Kilat\"", "Lon": "123.6412156", "Lat": "10.1048601" }, "geometry": { "type": "Point", "coordinates": [ 123.6412156, 10.1048601 ] } },
+{ "type": "Feature", "properties": { "List of Historical Markers": "Mercado Mansion", "Lon": "123.641373", "Lat": "10.104516" }, "geometry": { "type": "Point", "coordinates": [ 123.641373, 10.104516 ] } },
+{ "type": "Feature", "properties": { "List of Historical Markers": "Parola ng Bagacay Point ", "Lon": "124.018609", "Lat": "10.3833439" }, "geometry": { "type": "Point", "coordinates": [ 124.018609, 10.3833439 ] } },
+{ "type": "Feature", "properties": { "List of Historical Markers": "Silva House", "Lon": "123.6412133", "Lat": "10.1046408" }, "geometry": { "type": "Point", "coordinates": [ 123.6412133, 10.1046408 ] } },
+{ "type": "Feature", "properties": { "List of Historical Markers": "Simbahan ng Argao (Church of Argao)", "Lon": "123.607794", "Lat": "9.88199" }, "geometry": { "type": "Point", "coordinates": [ 123.607794, 9.88199 ] } },
+{ "type": "Feature", "properties": { "List of Historical Markers": "Simbahan ng Carcar (Church of Carcar)", "Lon": "123.6403231", "Lat": "10.1059358" }, "geometry": { "type": "Point", "coordinates": [ 123.6403231, 10.1059358 ] } },
+{ "type": "Feature", "properties": { "List of Historical Markers": "Simbahan ng Dumanjug (Church of Dumanjug)", "Lon": "123.4347332", "Lat": "10.0573993" }, "geometry": { "type": "Point", "coordinates": [ 123.4347332, 10.0573993 ] } },
+{ "type": "Feature", "properties": { "List of Historical Markers": "Simbahan ng Sibonga( Church of Sibonga)", "Lon": "123.619314", "Lat": "10.016971" }, "geometry": { "type": "Point", "coordinates": [ 123.619314, 10.016971 ] } }
+]
+}

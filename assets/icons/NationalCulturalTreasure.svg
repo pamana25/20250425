@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
+  <!-- Generator: Adobe Illustrator 29.1.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 142)  -->
+  <defs>
+    <style>
+      .st0, .st1 {
+        fill: #f37b21;
+        stroke: #f27b21;
+        stroke-miterlimit: 10;
+      }
+
+      .st0, .st2 {
+        display: none;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1" class="st2">
+    <image width="3840" height="2160" transform="translate(-970 -702)" xlink:href="../../Pictures/Screenshots/Screenshot (22).png"/>
+  </g>
+  <g id="Layer_2">
+    <polygon class="st0" points="69 168 69 202 249 202 249 66.4 69 168"/>
+    <polygon class="st0" points="429 168 429 202 249 202 249 66.4 429 168"/>
+    <polygon class="st1" points="69 392 69 428 249 428 249 359.7 113 359.7 69 392"/>
+    <polygon class="st1" points="429 392 429 428 249 428 249 359.7 385 359.7 429 392"/>
+    <rect class="st1" x="114" y="241" width="45" height="119"/>
+    <rect class="st1" x="187" y="241" width="45" height="119"/>
+    <rect class="st1" x="266" y="241" width="45" height="119"/>
+    <rect class="st1" x="339" y="241" width="45" height="119"/>
+    <rect class="st1" x="79.5" y="160.5" width="339" height="55"/>
+    <rect class="st1" x="233.5" y="68.5" width="30" height="97"/>
+    <rect class="st1" x="255.5" y="68.5" width="71" height="53"/>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 512 512">
+  <!-- Generator: Adobe Illustrator 29.1.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 142)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: none;
+      }
+
+      .st0, .st1 {
+        stroke: #f37b21;
+        stroke-miterlimit: 10;
+        stroke-width: 16px;
+      }
+
+      .st2, .st1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <rect class="st0" x="225" y="67" width="48" height="66"/>
+  <circle class="st1" cx="249" cy="225" r="128"/>
+  <rect class="st1" x="91" y="202" width="316" height="34"/>
+  <polyline class="st0" points="429 394 429 427 69 427 69 394"/>
+  <rect class="st2" x="63" y="244" width="372" height="116"/>
+  <polyline class="st0" points="67 400 111.5 362.7 386.4 362.7 431 400"/>
+  <rect class="st0" x="118" y="273" width="45.3" height="89"/>
+  <rect class="st0" x="190.2" y="273" width="45.3" height="89"/>
+  <rect class="st0" x="264.4" y="273" width="45.3" height="89"/>
+  <rect class="st0" x="334.7" y="273" width="45.3" height="89"/>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 512 512">
+  <!-- Generator: Adobe Illustrator 29.1.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 142)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #f37b21;
+        stroke: #f27b21;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <polygon class="st0" points="249 67 249 259.2 203 259.2 203 292 249 292 249 359.9 152 359.9 181 132 249 67"/>
+  <polygon class="st0" points="249 67 249 259.2 295 259.2 295 292 249 292 249 359.9 346 359.9 317 132 249 67"/>
+  <rect class="st0" x="114" y="381" width="135" height="47"/>
+  <rect class="st0" x="249" y="381" width="135" height="47"/>
+</svg>

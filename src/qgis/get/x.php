@@ -1,0 +1,1 @@
+<?php echo "<script>window.location.href='../../../_db/connection.php'</script>"; ?>

@@ -1,0 +1,1 @@
+<?php  function confi(){ return "Y3P}1gi4n-#]"; } ?>

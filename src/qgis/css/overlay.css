@@ -1,0 +1,49 @@
+.grid {
+	position: relative;
+	margin: 0 auto;
+	padding: 0 12px;
+	list-style: none;
+	text-align: center;
+}
+.grid h2 {
+    color: #000;
+    transform: translate3d(0px, 100%, 0px);
+    transition: transform 0.35s ease 0s, color 0.35s ease 0s;
+    width: 100%;
+}
+.grid h2 span {
+    font-weight: 800;
+}
+.grid p {
+    padding: 2em;
+    transform: translate3d(0px, 10px, 0px);
+    width: 100%;
+}
+img {
+    border: 0;
+    width: 100%;
+    height: auto;
+}
+
+/* Technique #1 */
+.overlayone{
+  width: 480px;
+  height: 320px;
+  display: inline-block;
+  position: relative;
+}
+.overlayinn {
+  background-color: rgba(0, 182, 158, 0.7);
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  position: absolute;
+  padding: 70px;
+  transition: opacity .5s;
+}
+.overlayinn:hover {
+  opacity: 1;
+  transition: opacity .5s;
+}

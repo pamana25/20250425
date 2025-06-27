@@ -3036,7 +3036,7 @@ video {
     --tw-ring-color: rgb(59 130 246 / var(--tw-ring-opacity));
   }
 }
-.grid-cols-1 {
+.grid-cols-1-footer {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 @media (min-width: 768px) {

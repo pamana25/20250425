@@ -1,7 +1,7 @@
 
 <footer class="bg-primary-800 text-white px-4 sm:px-6 lg:px-20 py-8">
     <div class="container mx-auto">
-        <div class="grid grid-cols-1 md:grid-cols-4">
+        <div class="grid grid-cols-1-footer md:grid-cols-4">
             <div class="flex px-2 mb-4 justify-start items-start md:justify-center md:items-center">
                 <img src="<?= $base_url ?>/assets/favicons/WebLogo02b.png" class="h-32" alt="" style="filter:brightness(0) invert(1)">
             </div>
